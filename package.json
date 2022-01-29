@@ -1,0 +1,22 @@
+{
+  "name": "myresume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/sass/style.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majedkarimi/my-cv.git"
+  },
+  "author": "majed karimi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majedkarimi/my-cv/issues"
+  },
+  "homepage": "https://github.com/majedkarimi/my-cv#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
